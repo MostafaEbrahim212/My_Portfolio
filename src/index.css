@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: var(--bg-primary);
+  --color-pencil: var(--text-primary);
+  --color-muted: var(--bg-muted);
+  --color-marker: var(--accent-red);
+  --color-pen: var(--accent-blue);
+  --font-kalam: 'Kalam', cursive;
+  --font-patrick: 'Patrick Hand', cursive;
+  --radius-wobbly: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --radius-wobblyMd: 25px 5px 25px 5px / 5px 25px 5px 25px;
+  --shadow-hard: 4px 4px 0px 0px var(--text-primary);
+  --shadow-hard-hover: 2px 2px 0px 0px var(--text-primary);
+  --shadow-hard-lg: 8px 8px 0px 0px var(--text-primary);
+  --shadow-hard-subtle: 3px 3px 0px 0px color-mix(in srgb, var(--text-primary) 20%, transparent);
+  --color-postit: var(--bg-postit);
+  --color-postit-text: var(--text-postit);
+}
+
+@layer base {
+  :root {
+    --bg-primary: #fdfbf7;
+    --text-primary: #2d2d2d;
+    --bg-muted: #e5e0d8;
+    --accent-red: #ff4d4d;
+    --accent-blue: #2d5da1;
+    --bg-postit: #fff9c4;
+    --text-postit: #2d2d2d;
+  }
+
+  .dark {
+    --bg-primary: #1e293b;
+    /* Chalkboard slate */
+    --text-primary: #f8fafc;
+    /* Chalk white */
+    --bg-muted: #334155;
+    --accent-red: #f87171;
+    /* Chalk red */
+    --accent-blue: #60a5fa;
+    /* Chalk blue */
+    --bg-postit: #451a03;
+    /* Dark brown chalkboard postit */
+    --text-postit: #f8fafc;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-patrick);
+    background-image: radial-gradient(var(--bg-muted) 1px, transparent 1px);
+    background-size: 24px 24px;
+    margin: 0;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%232d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>') 0 24, auto;
+  }
+
+  .dark body {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23f8fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>') 0 24, auto;
+  }
+
+  a,
+  button,
+  [role="button"],
+  input,
+  textarea,
+  select {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23ff4d4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>') 12 12, pointer !important;
+  }
+
+  .dark a,
+  .dark button,
+  .dark [role="button"],
+  .dark input,
+  .dark textarea,
+  .dark select {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23f87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>') 12 12, pointer !important;
+  }
+
+  ::selection {
+    background-color: #ffeb3b; /* Highlighter yellow */
+    color: #1a1a1a;
+    text-shadow: none;
+  }
+  .dark ::selection {
+    background-color: #f87171; /* Marker red for dark mode */
+    color: #1a1a1a;
+  }
+
+  /* Hide standard scrollbar to use the hand-drawn one */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-kalam);
+    font-weight: 700;
+  }
+}
+
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-swing {
+  animation: swing 2s ease-in-out;
+}

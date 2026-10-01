@@ -1,0 +1,205 @@
+{
+  "hero": {
+    "name": "مصطفى",
+    "lastName": "إبراهيم",
+    "image": "https://github.com/MostafaEbrahim212.png",
+    "title": "Full Stack Developer",
+    "description": "مطور باك إند بـ **Laravel** وفرونت إند بـ **HTML, CSS, JS, Tailwind**. بحب أبني مواقع بتفرق بجد مش مجرد كود وخلاص. وحالياً مركز أطلع شغل بمزاج أو اللي بيسموه الـ **vibe coding**! 🚀"
+  },
+  "todoList": {
+    "title": "قائمة المهام",
+    "tasks": [
+      "قلّب في مشاريع مصطفى",
+      "شوف المهارات اللي بيشتغل بيها",
+      "شخبط شوية على السبورة تحت",
+      "وظّف مصطفى فوراً! 😎"
+    ]
+  },
+  "githubGraph": {
+    "title": "إسهامات جيت هاب (GitHub)"
+  },
+  "about": {
+    "title": "عني",
+    "moreTitle": "حاجات تانية عني",
+    "age": "السن",
+    "ageValue": "25 سنة، وداخل على الـ 26 😁",
+    "dob": "مواليد 2 ديسمبر 2001",
+    "location": "المكان",
+    "locationValue": "المنصورة، الدقهلية، مصر (عاصمة الكبدة والسعادة)",
+    "education": "التعليم",
+    "educationValue": "خريج حاسبات ومعلومات جامعة المنصورة (قسم علوم حاسب).",
+    "more": [
+      "دايماً بحب أذاكر وأجرب تكنولوجي جديدة عشان مبقاش دقة قديمة 📚",
+      "بحب أشارك وأساعد الكوميونيتي بتاعت الديفيلوبرز 🌍",
+      "بلقط الحاجة وهي طايرة وأتعلمها بسرعة 🚀",
+      "عارف حاجات تانية كتير غير اللي مكتوبة هنا بس مش هكتبهم عشان الحسد 💪"
+    ]
+  },
+  "experience": {
+    "title": "الخبرات",
+    "jobs": [
+      {
+        "title": "Full Stack Developer",
+        "duration": "8 شهور (قبل الميري)",
+        "subtitle": "أول استلام شغل بعد التخرج",
+        "bullets": [
+          "نزلت سوق العمل في شركة من الدار للنار بعد الكلية وقعدت 8 شهور.",
+          "سبت الشغل عشان أدخل الجيش كظابط احتياط قد الدنيا 🫡.",
+          "اشتغلت على **كل حاجة حرفياً في لارافيل** من الصفر لحد ما سلمت المشاريع للعميل.",
+          "حالياً بنقل لشغل الرايقين والـ **vibe coding** ✨ بمزاج."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "مشاريعي",
+    "viewCode": "الكود",
+    "viewLive": "لايف",
+    "items": [
+      {
+        "title": "E-Commerce API",
+        "description": "عملت RESTful API كامل لمشروع تجارة إلكترونية بـ Laravel، شامل كل الـ Logic بتاع السلة والدفع.",
+        "tags": [
+          "Laravel",
+          "MySQL",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Social Platform",
+        "description": "تطبيق تواصل اجتماعي شغال Real-time باستخدام Event Broadcasting و Websockets.",
+        "tags": [
+          "Laravel",
+          "JavaScript",
+          "Tailwind"
+        ]
+      },
+      {
+        "title": "Inventory Management",
+        "description": "داشبورد قوية لإدارة المخازن والموردين مع استخراج تقارير PDF شغل عالي.",
+        "tags": [
+          "PHP",
+          "Bootstrap",
+          "AJAX"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "مهاراتي",
+    "backend": "الباك إند",
+    "frontend": "الفرونت إند",
+    "tools": "عدة الشغل",
+    "laravelTitle": "Laravel & PHP",
+    "mysqlTitle": "MySQL",
+    "laravel": [
+      "فرمت الـ ecosystem بتاع لارافيل كله في مشاريع حقيقية 🚀",
+      "بعمل Relations معقدة و Tuning للـ queries عشان الأداء 🗃️",
+      "بستخدم Queues, Jobs.. عشان الحاجات التقيلة تشتغل في الباك جراوند واليوزر ميحسش ⚙️",
+      "ببني RESTful APIs وبعمل Auth متين بـ Sanctum و Passport 🔐",
+      "شغال Service Container & Providers وبلعب في قلب الـ Framework 📦",
+      "بظبط الـ Caching بـ Redis عشان الـ requests تطير طيران ⚡"
+    ],
+    "mysql": [
+      "برسم قواعد بيانات معقدة ومترتبة صح 📐",
+      "بكتب queries بتجيب من الآخر من غير ما تـ lag ⚡",
+      "عارف يعني إيه Database transactions عشان لو حصل مشكلة الداتا متروحش في داهية 🔒",
+      "ماستر في الـ Relations من الـ One-to-One لحد الـ Polymorphic 🏗️"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
+      "Bootstrap",
+      "AJAX"
+    ],
+    "frontendBullets": [
+      "ببني واجهات بالشقلباظات وشغل JavaScript يخطف العين 🧠",
+      "بعمل ديزاين بـ Tailwind يظبط على أي شاشة، حتى لو شاشة ثلاجة 📱",
+      "بجيب الداتا بـ AJAX من غير ما الصفحة تعمل ريفريش 🔄",
+      "بهتم بتجربة المستخدم عشان ميزهقش مننا 🌐"
+    ],
+    "toolsList": [
+      {
+        "name": "VS Code",
+        "iconType": "Terminal"
+      },
+      {
+        "name": "Git & GitHub",
+        "iconType": "Code"
+      },
+      {
+        "name": "Postman",
+        "iconType": "Mail"
+      },
+      {
+        "name": "Laragon",
+        "iconType": "Database"
+      },
+      {
+        "name": "Composer",
+        "iconType": "Terminal"
+      },
+      {
+        "name": "XAMPP",
+        "iconType": "Database"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "رأي الناس فيا",
+    "items": [
+      {
+        "name": "أحمد",
+        "role": "Senior Dev",
+        "text": "مصطفى وحش في الباك إند، بيبني سيستمز متينة تستحمل الضغط، أنصح بيه جداً."
+      },
+      {
+        "name": "محمد",
+        "role": "Product Manager",
+        "text": "بيسلم المطلوب بالظبط في وقته ومزاجه دايماً رايق في الشغل."
+      },
+      {
+        "name": "كريم",
+        "role": "Frontend Eng",
+        "text": "الـ APIs بتاعته دايماً نضيفة وسهل أربط معاها، والميزة إنه بيفهم تيلويند وبيساعدني!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "يلا نعمل حاجة جامدة مع بعض!",
+    "subtitle": "سواء مشروع جديد، سؤال، أو حتى جاي تسلم، ابعتلي في أي وقت.",
+    "emailText": "ابعتلي إيميل",
+    "githubText": "جيت هاب",
+    "linkedinText": "لينكد إن",
+    "form": {
+      "name": "اسمك",
+      "email": "إيميلك",
+      "message": "رسالتك",
+      "send": "ابعت الرسالة"
+    },
+    "email": "sasa9121963@gmail.com",
+    "github": "https://github.com/MostafaEbrahim212",
+    "linkedin": "https://www.linkedin.com/in/mostafa-ebrahim-91384326a/"
+  },
+  "doodle": {
+    "title": "لوحة الشخبطة! 🎨",
+    "subtitle": "خد راحتك وشخبط هنا قبل ما تقفل.",
+    "clear": "امسح الشخبطة"
+  },
+  "footer": {
+    "text": "Designed with ♥ by Me (عمايل إيديا وحياة عينيا)",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "nav": {
+    "about": "عني",
+    "skills": "مهاراتي",
+    "experience": "خبراتي",
+    "projects": "مشاريعي",
+    "contact": "تواصل",
+    "sayHello": "قول سلام",
+    "downloadCv": "حمل الـ CV",
+    "thatsMe": "ده أنا! ✨"
+  }
+}

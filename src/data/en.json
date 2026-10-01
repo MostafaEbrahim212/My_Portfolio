@@ -1,0 +1,205 @@
+{
+  "hero": {
+    "name": "Mostafa",
+    "lastName": "Ebrahim",
+    "image": "https://github.com/MostafaEbrahim212.png",
+    "title": "Full Stack Developer",
+    "description": "Backend developer with **Laravel** and frontend developer with **HTML, CSS, JS, Tailwind**. Passionate about building web applications that make a difference. Currently mastering the art of **vibe coding**. 🚀"
+  },
+  "todoList": {
+    "title": "To-Do List",
+    "tasks": [
+      "Check out Mostafa's Projects",
+      "Read through the Skills",
+      "Play with the Doodle Pad",
+      "Hire Mostafa! 😎"
+    ]
+  },
+  "githubGraph": {
+    "title": "GitHub Contributions"
+  },
+  "about": {
+    "title": "About Me",
+    "moreTitle": "More About Me",
+    "age": "Age",
+    "ageValue": "25 years old, almost 26 😁",
+    "dob": "Born December 2, 2001",
+    "location": "Location",
+    "locationValue": "Mansoura, Dakahlia, Egypt",
+    "education": "Education",
+    "educationValue": "Graduated from FCI, Mansoura University (CS Major).",
+    "more": [
+      "Always eager to learn new technologies and improve my skills 📚",
+      "Passionate about contributing to open-source and helping the dev community 🌍",
+      "Fast learner capable of quickly mastering new skills 🚀",
+      "Knowledgeable in various technologies beyond what is listed here 💪"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "title": "Full Stack Developer",
+        "duration": "8 Months",
+        "subtitle": "First Job After Graduation",
+        "bullets": [
+          "Worked in a company right after college for 8 months.",
+          "Left the position to join the army as an Officer.",
+          "Worked on **everything in Laravel** from A to Z, delivering full-scale applications.",
+          "Currently transitioning to the amazing world of **vibe coding** ✨."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewCode": "Code",
+    "viewLive": "Live Demo",
+    "items": [
+      {
+        "title": "E-Commerce API",
+        "description": "A fully scalable RESTful API for an e-commerce platform built with Laravel, featuring complex cart logic and payment integrations.",
+        "tags": [
+          "Laravel",
+          "MySQL",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Social Platform",
+        "description": "Real-time social networking app with Event Broadcasting, Websockets, and a responsive frontend.",
+        "tags": [
+          "Laravel",
+          "JavaScript",
+          "Tailwind"
+        ]
+      },
+      {
+        "title": "Inventory Management",
+        "description": "Comprehensive dashboard for tracking stock, managing vendors, and generating PDF reports.",
+        "tags": [
+          "PHP",
+          "Bootstrap",
+          "AJAX"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Tools of the Trade",
+    "laravelTitle": "Laravel & PHP",
+    "mysqlTitle": "MySQL",
+    "laravel": [
+      "Mastered the entire Laravel ecosystem through numerous real-world projects 🚀",
+      "Advanced Eloquent ORM, polymorphic relationships, & Query tuning 🗃️",
+      "Implementing Queues, Jobs, Task Scheduling & Event Broadcasting ⚙️",
+      "Building scalable RESTful APIs with Sanctum/Passport authentication 🔐",
+      "Service Container, Service Providers & custom middleware logic 📦",
+      "Caching strategies (Redis, Memcached) & system optimization ⚡"
+    ],
+    "mysql": [
+      "Designing normalized relational databases and complex schemas 📐",
+      "Writing & optimizing complex queries, joins, and indexing strategies ⚡",
+      "Database transactions, ACID properties & concurrency control 🔒",
+      "Mastering One-to-One, One-to-Many, Many-to-Many & Polymorphic relations 🏗️"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
+      "Bootstrap",
+      "AJAX"
+    ],
+    "frontendBullets": [
+      "Building modern, dynamic interfaces with advanced JavaScript 🧠",
+      "Pixel-perfect, 100% responsive layout engineering using Tailwind CSS 📱",
+      "Seamless asynchronous API integration & state management via AJAX 🔄",
+      "Optimizing web vitals, UX/UI patterns, and cross-browser compatibility 🌐"
+    ],
+    "toolsList": [
+      {
+        "name": "VS Code",
+        "iconType": "Terminal"
+      },
+      {
+        "name": "Git & GitHub",
+        "iconType": "Code"
+      },
+      {
+        "name": "Postman",
+        "iconType": "Mail"
+      },
+      {
+        "name": "Laragon",
+        "iconType": "Database"
+      },
+      {
+        "name": "Composer",
+        "iconType": "Terminal"
+      },
+      {
+        "name": "XAMPP",
+        "iconType": "Database"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "items": [
+      {
+        "name": "Ahmed",
+        "role": "Senior Dev",
+        "text": "Mostafa is a beast when it comes to backend architecture. Highly recommended!"
+      },
+      {
+        "name": "Mohamed",
+        "role": "Product Manager",
+        "text": "Delivers exactly what is needed, on time, with great vibes."
+      },
+      {
+        "name": "Kareem",
+        "role": "Frontend Eng",
+        "text": "His API endpoints are always clean and easy to consume. Plus he knows Tailwind!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's build something awesome!",
+    "subtitle": "Whether it's a new project, a question, or just saying hi, my inbox is always open.",
+    "emailText": "Email Me",
+    "githubText": "GitHub",
+    "linkedinText": "LinkedIn",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message"
+    },
+    "email": "sasa9121963@gmail.com",
+    "github": "https://github.com/MostafaEbrahim212",
+    "linkedin": "https://www.linkedin.com/in/mostafa-ebrahim-91384326a/"
+  },
+  "doodle": {
+    "title": "Doodle Pad! 🎨",
+    "subtitle": "Feel free to sketch something before you leave.",
+    "clear": "Erase Everything"
+  },
+  "footer": {
+    "text": "Designed with ♥ by Me",
+    "rights": "All rights reserved."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "sayHello": "Say Hello",
+    "downloadCv": "Download CV",
+    "thatsMe": "That's me! ✨"
+  }
+}
